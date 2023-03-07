@@ -1,0 +1,47 @@
+.login-button {
+  display: flex;
+  justify-content: flex-end;
+  margin: 25px;
+  cursor: pointer; /*화살표 모양으로 바꾸기*/
+}
+.nav-section {
+  display: flex;
+  justify-content: center;
+}
+.menu-list {
+  display: flex;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.menu-list li {
+  padding: 10px;
+}
+.menu-area {
+  display: flex;
+  justify-content: center;
+}
+.search-box {
+  border-bottom: 1px solid black;
+  padding: 5px 10px;
+}
+.search-box input {
+  border: none;
+  margin-left: 5px;
+}
+.search-box input:focus {
+  outline: none;
+}
+
+.card {
+  border: none !important;
+  margin-bottom: 10px;
+}
+.card:hover {
+  transform: scale(1.1);
+  z-index: 1;
+}
+.product-img {
+  display: flex;
+  justify-content: flex-end;
+}
